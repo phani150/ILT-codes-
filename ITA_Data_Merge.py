@@ -67,7 +67,7 @@ if(inputValue == '1'):
                 final_df.to_excel("OutputFile.xlsx",index=False)
             break
     except:
-        ##Processing of Data files
+        ##Processing of Data files,we can read the files from the repository url also
         df1 = pd.read_csv(Data1_File_txt,encoding = "ISO-8859-1",sep=",")
         print ("Processing of " + Data1_File_txt + " Completed")
         df2 = pd.read_csv(Data2_File_txt,encoding = "ISO-8859-1",sep=",")

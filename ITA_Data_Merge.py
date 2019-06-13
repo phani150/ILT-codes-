@@ -51,7 +51,7 @@ if(inputValue == '1'):
     try:
         for file in os.listdir(cwd):
             if(".XLSX" in file):
-                ##Processing the  excel Data files
+                ##Processing the  excel Data files,we can read the files from the repository url also
                 df1 = pd.read_excel(Data1_File,encoding = "ISO-8859-1",dtype='unicode')
                 print ("Processing of " + Data1_File + " Completed")
                 df2 = pd.read_excel(Data2_File,encoding = "ISO-8859-1",dtype='unicode')

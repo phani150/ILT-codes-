@@ -10,5 +10,5 @@ The default theme is darkgrid"""
 sns.set_style("dark")
 data=np.random.normal(size=(20,9)) + np.arange(9)/2
 sns.boxplot(data=data)
-sns.spines
+
 plt.show()

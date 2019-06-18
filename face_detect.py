@@ -1,5 +1,8 @@
+"""Done using the sklearn module"""
+
 print(__doc__)
 
+##Importing the necessary ml modules
 import numpy as np
 import matplotlib.pyplot as plt
 
